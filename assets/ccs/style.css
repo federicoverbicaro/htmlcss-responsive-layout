@@ -751,28 +751,30 @@ img.round {
     }
 
     /* MAIN ROW5 */
+   
     .row5-container {
         width: 100%;
         height: auto;
         margin: 60px auto;
-        gap: 50px;
+        gap: 0px;
     }
 
     .colonna1-row5 {
         width: 60%;
+        padding-left: 15px;
 
     }
 
     .colonna1-row5>p {
         margin-top: 50px;
         line-height: 40px;
-        width: 100%;
+        width: 80%;
         font-size: 20px;
     }
 
     .colonna2-row5 {
         width: 40%;
-
+        padding-right: 15px;
     }
 
     .img-about>span {
