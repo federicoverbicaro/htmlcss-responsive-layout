@@ -648,8 +648,22 @@ img.round {
         padding: 10px;
     }
     .card > div:first-child {
-        flex-basis: calc(((100% / 3) * 2) - 10px);
+        flex: 2 0 calc(66% - 10px);
         flex-direction: column;
+        word-break: break-word;
+    }
+    .card > div {
+        flex: 1 0 33%;
+        flex-basis: calc((100% / 3) - 20px);
+        height: auto;
+        border-radius: 20px;
+        background-color: #b5ddff;
+        word-break: break-word;
+    }
+    .card div > h3 {
+        color: #0984fd;
+        text-align: center;
+        font-size: 20px;
     }
     .img-phone img {
         width: 50%;
